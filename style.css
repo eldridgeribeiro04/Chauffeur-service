@@ -1,0 +1,50 @@
+body {
+    background-image: url(https://cdn.create.vista.com/api/media/small/171470792/stock-photo-beautiful-business-woman-working-on-laptop-in-a-limousine);
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    font-family: sans-serif;
+    color: black;
+    padding: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about-us h2, p{
+    display: inline-block;
+    padding-top: 1%;
+}
+
+.about-us h2{
+    text-align: left;
+    width: 30%;
+}
+
+.about-us p {
+    text-align: center;
+    width: 70%;
+}
+
+.book-car {
+    background-color: gray;
+    padding: 10%;
+}
+
+hr{
+    height: 2px;
+    border-color: black;
+    background-color: black;
+    margin-top: 30px;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.address {
+    font-style: italic;
+}
