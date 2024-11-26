@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(rgb(255,  255, 255), rgb(255, 0, 0), rgb(0, 0, 0));
+    padding-left: 500px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1)
+}
+
+.top-left p {
+    padding-left: 10px;
+    padding-right: 0px;
+    /* padding-top: 10px; */
+    display: inline-block;
+    font: bold 30px Poppins;
+    height: 50px;
+    color: red
+}
+  
+.top-left img {
+    height: 30px;
+    width: 40px;
+    /* padding-top: 10px; */
+    display: inline-block;
+}
+
+.bottom-right p {
+    padding-left: 230px;
+    padding-right: 0px;
+    padding-top: 40px;
+    display: inline-block;
+    font: bold 30px Poppins;
+    height: 50px;
+    color: red
+}
+
+.bottom-right img {
+    height: 30px;
+    width: 40px;
+    /* padding-top: 10px; */
+    display: inline-block;
+}
+
+.center img {
+    height: 200px;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}

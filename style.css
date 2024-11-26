@@ -14,7 +14,7 @@ h1 {
 }
 
 .about-us h2, p{
-    display: inline-block;
+    /* display: inline-block; */
     padding-top: 1%;
 }
 
@@ -26,6 +26,7 @@ h1 {
 .about-us p {
     text-align: center;
     width: 70%;
+    color: linear-gradient(rgb(255, 255, 255), rgb(72, 72, 255), rgb(255, 72, 72))
 }
 
 .book-car {
@@ -47,4 +48,10 @@ footer {
 
 .address {
     font-style: italic;
+}
+
+
+.heading {
+    background-color: blue;
+    padding: 10px;
 }

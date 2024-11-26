@@ -8,58 +8,66 @@
     </head>
 
     <body>
-        <div class="book-car">
-        <main>
-        <h1>Chauffeur Service</h1>
+
+            <div class="book-car">
+
+            <main>
+
+            <div class="Heading">
+                <h1>Chauffeur Service</h1>
+            </div>
+            <hr>
+
+        <div class="about-us">
+            <section >
+                <h2>About Us:</h2><p>We offer chauffeur services to help you find the best car for your needs.
+                    Our team of experienced drivers and mechanics will ensure that your car is well-maintained,
+                    safe, and ready for your next destination.</p>
+            </section>
+        </div>
+
+        <section class="car-type"> 
+            <h2>Type of Car</h2>
+            <label>
+                <input type="radio" id="auto" name="auto-manual" value="auto" checked>
+                <span>Auto</span>
+            </label>
+            <label>
+                <input type="radio" id="manual" name="auto-manual" value="manual">
+                <span>Manual</span>
+            </label>
+        </section>
+
+        <section>
+            <h2>Select your date</h2>
+            <h3>Pick up date: </h3>
+                <input id="start-date" type="date" name="rent-date"  required>
+                
+            <h3>Return date: </h3>
+                <input id="end-date" type="date" name="return-date"  required>
+                
+
+            <h2>Select pick up time: </h2>
+            <label>
+                <input id="collection-time" type="time" name="pick-up-time" required>
+            </label>
+        </section>
+
+        <section class="inquiries">
+            <h2>Inquiries</h2>
+            <input type="text" id="inquiry" name="inquiry" placeholder="Type here">
+            <button type="submit">Submit</button>
+        </section>
+
         <hr>
-    
-    <section class="about-us">
-        <h2>About Us:</h2><p>We offer chauffeur services to help you find the best car for your needs.
-             Our team of experienced drivers and mechanics will ensure that your car is well-maintained,
-              safe, and ready for your next destination.</p>
-    </section>
 
-    <section class="car-type"> 
-        <h2>Type of Car</h2>
-        <label>
-            <input type="radio" id="auto" name="auto-manual" value="auto" checked>
-            <span>Auto</span>
-        </label>
-        <label>
-            <input type="radio" id="manual" name="auto-manual" value="manual">
-            <span>Manual</span>
-        </label>
-    </section>
+        <footer>
+            <p>Contact us at <a href="mailto:info@chauffeurservice.com">info@chauffeurservice.com</a></p>
+            <p class="address">24 Street 7, Chauffeur Service</p>
 
-    <section>
-        <h2>Select your date</h2>
-        <h3>Pick up date: </h3>
-            <input id="start-date" type="date" name="rent-date"  required>
-            
-        <h3>Return date: </h3>
-            <input id="end-date" type="date" name="return-date"  required>
-            
-
-        <h2>Select pick up time: </h2>
-        <label>
-            <input id="collection-time" type="time" name="pick-up-time" required>
-        </label>
-    </section>
-
-    <section class="inquiries">
-        <h2>Inquiries</h2>
-        <input type="text" id="inquiry" name="inquiry" placeholder="Type here">
-        <button type="submit">Submit</button>
-    </section>
-
-    <hr>
-
-    <footer>
-        <p>Contact us at <a href="mailto:info@chauffeurservice.com">info@chauffeurservice.com</a></p>
-        <p class="address">24 Street 7, Chauffeur Service</p>
-
-    </main>
-    </footer>
+        </main>
+        
+        </footer>
 
         </div>
 
