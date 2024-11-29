@@ -2,36 +2,21 @@ body {
     background-image: url(https://cdn.create.vista.com/api/media/small/171470792/stock-photo-beautiful-business-woman-working-on-laptop-in-a-limousine);
     background-repeat: no-repeat;
     background-size: cover;
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
     font-family: sans-serif;
-    color: black;
+    color: white;
     padding: 10%;
+}
+
+.book-car {
+    background-color: black;
+    padding: 10%;
+    border-radius: 5%;
 }
 
 h1 {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.about-us h2, p{
-    /* display: inline-block; */
-    padding-top: 1%;
-}
-
-.about-us h2{
-    text-align: left;
-    width: 30%;
-}
-
-.about-us p {
-    text-align: center;
-    width: 70%;
-    color: linear-gradient(rgb(255, 255, 255), rgb(72, 72, 255), rgb(255, 72, 72))
-}
-
-.book-car {
-    background-color: gray;
-    padding: 10%;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 hr{
@@ -50,8 +35,25 @@ footer {
     font-style: italic;
 }
 
+a {
+    color: white;
+}
 
-.heading {
-    background-color: blue;
-    padding: 10px;
+label {
+    display: block;
+    padding: 0.5em 0;
+}
+
+fieldset {
+    padding-bottom: 2em;
+    margin: 1em 3em;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 23.3%;
+}
+
+.submit {
+    padding-left: 40%;
 }

@@ -1,33 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Chauffeur Service </title>
-    </head>
 
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Chauffeur Service </title>
+</head>
 
-            <div class="book-car">
+<body>
 
-            <main>
+    <div class="book-car">
 
-            <div class="Heading">
-                <h1>Chauffeur Service</h1>
-            </div>
-            <hr>
+        <h1>Chauffeur Service</h1>
+        <hr>
 
-        <div class="about-us">
-            <section >
-                <h2>About Us:</h2><p>We offer chauffeur services to help you find the best car for your needs.
-                    Our team of experienced drivers and mechanics will ensure that your car is well-maintained,
-                    safe, and ready for your next destination.</p>
-            </section>
-        </div>
+        <fieldset>
+            <legend>
+                <h3>About Us:</h2>
+            </legend>
+            <p>We offer chauffeur services to help you find the best car for your needs.
+                Our team of experienced drivers and mechanics will ensure that your car is well-maintained,
+                safe, and ready for your next destination.</p>
+        </fieldset>
+        </section>
 
-        <section class="car-type"> 
-            <h2>Type of Car</h2>
+        <form method="post">
+            <fieldset>
+                <legend>
+                    <h3>Personal Information</h3>
+                </legend>
+                <label for="first-name">
+                    First Name: <input type="text" id="firstname" name="first-name" required />
+                </label>
+                <label for="last-name">
+                    Last Name: <input type="text" id="lastname" name="last-name" required />
+                </label>
+                <label for="email">
+                    Email: <input type="email" id="email" name="email" required />
+                </label>
+                <label for="phone">
+                    Phone: <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+                </label>
+                <label for="licence">
+                    Licence: <input type="file" id="licence" name="licence" required />
+                </label>
+                <label for="referrer">How did you hear about us?:
+                    <select name="referrer" id="referrer">
+                        <option value="">Select one</option>
+                        <option value="social">Social</option>
+                        <option value="word-of-mouth">Word of Mouth</option>
+                        <option value="website">Website</option>
+                    </select>
+                </label>
+        </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h3>Type of Car</h3>
+            </legend>
             <label>
                 <input type="radio" id="auto" name="auto-manual" value="auto" checked>
                 <span>Auto</span>
@@ -36,28 +68,38 @@
                 <input type="radio" id="manual" name="auto-manual" value="manual">
                 <span>Manual</span>
             </label>
-        </section>
+        </fieldset>
 
-        <section>
+        <fieldset>
+            <legend>
+                <h3>Logistic details</h3>
+            </legend>
             <h2>Select your date</h2>
             <h3>Pick up date: </h3>
-                <input id="start-date" type="date" name="rent-date"  required>
-                
+            <input id="start-date" type="date" name="rent-date" required>
+
             <h3>Return date: </h3>
-                <input id="end-date" type="date" name="return-date"  required>
-                
+            <input id="end-date" type="date" name="return-date" required>
+
 
             <h2>Select pick up time: </h2>
             <label>
                 <input id="collection-time" type="time" name="pick-up-time" required>
             </label>
-        </section>
+        </fieldset>
 
-        <section class="inquiries">
-            <h2>Inquiries</h2>
-            <input type="text" id="inquiry" name="inquiry" placeholder="Type here">
-            <button type="submit">Submit</button>
-        </section>
+        <fieldset>
+            <legend>
+                <h3>Inquiries</h3>
+            </legend>
+            <textarea id="inquiry" name="inquiry" placeholder="Type here"></textarea>
+        </fieldset>
+
+        <div class="submit">
+            <input type="submit" value="Submit"/>
+        </div>
+
+        </form>
 
         <hr>
 
@@ -65,12 +107,12 @@
             <p>Contact us at <a href="mailto:info@chauffeurservice.com">info@chauffeurservice.com</a></p>
             <p class="address">24 Street 7, Chauffeur Service</p>
 
-        </main>
-        
+            </main>
+
         </footer>
 
-        </div>
+    </div>
 
-    </body>
+</body>
 
 </html>
